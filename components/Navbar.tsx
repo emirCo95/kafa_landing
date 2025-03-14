@@ -46,7 +46,10 @@ const Navbar = () => {
       <div className="flex-1 flex justify-center">
         <ul className="flex space-x-6">
           {links.map((link) => (
-            <li key={link.id} className={`${inter.className} antialiased`}>
+            <li
+              key={link.id}
+              className={`${inter.className} antialiased text-sm md:text-lg`}
+            >
               <Link
                 className="hover:border-b-2 hover:border-red-500 transition-discrete"
                 href={link.to}
