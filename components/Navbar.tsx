@@ -39,7 +39,7 @@ const links = [
 
 const Navbar = () => {
   return (
-    <nav className="w-full h-[10%] flex items-center p-4">
+    <nav className="w-full h-[10vh] flex items-center p-4">
       <div className="flex-1 flex justify-center">
         <Image src={logo} alt="logo" width={100} height={100} />
       </div>
