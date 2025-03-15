@@ -39,16 +39,16 @@ const links = [
 
 const Navbar = () => {
   return (
-    <nav className="w-full h-auto flex items-center p-4 bg-[#e5ece9]">
+    <nav className="w-full h-[7vh] flex items-center">
       <div className="flex-1 flex justify-center">
-        <Image src={logo} alt="logo" width={100} height={100} />
+        <Image src={logo} alt="logo" width={80} height={80} />
       </div>
       <div className="flex-1 flex justify-center">
         <ul className="flex space-x-6">
           {links.map((link) => (
             <li
               key={link.id}
-              className={`${inter.className} antialiased text-sm md:text-lg`}
+              className={`${inter.className} antialiased text-sm md:text-md`}
             >
               <Link
                 className="hover:border-b-2 hover:border-red-500 transition-discrete"
@@ -61,7 +61,7 @@ const Navbar = () => {
         </ul>
       </div>
       <div className="flex-1 flex justify-center">
-        <Search />
+        <Search size={20} />
       </div>
     </nav>
   );
