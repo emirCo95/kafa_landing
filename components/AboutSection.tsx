@@ -33,7 +33,13 @@ const AboutSection = () => {
         </p>
       </div>
       <div className="p-5">
-        <Image src={about} alt="about" width={500} height={1000} />{' '}
+        <Image
+          className="rounded-md"
+          src={about}
+          alt="about"
+          width={500}
+          height={1000}
+        />{' '}
       </div>
     </div>
   );
