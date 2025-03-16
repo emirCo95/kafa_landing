@@ -25,13 +25,9 @@ const links = [
     to: '/bakery',
     label: 'BAKERY',
   },
+
   {
     id: 4,
-    to: '/shop',
-    label: 'SHOP',
-  },
-  {
-    id: 5,
     to: '/about',
     label: 'ABOUT',
   },
