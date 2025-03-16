@@ -23,7 +23,7 @@ const Hero = () => {
       />
       <div className="w-full h-full flex flex-col justify-center items-center z-10">
         <span
-          className={`${d_script.className} antialiased text-white text-6xl`}
+          className={`${d_script.className} antialiased text-6xl text-red-500`}
         >
           Cafe
         </span>
